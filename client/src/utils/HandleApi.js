@@ -1,5 +1,6 @@
 import axios from 'axios'
-const baseUrl ="http://localhost:5000"
+// const baseUrl ="http://localhost:5000"; //for local development
+const baseUrl ="https://taskmanage-rbackend.onrender.com"; //for Cloud 
 const getTasks=(setTask)=>{
 axios
 .get(baseUrl)
